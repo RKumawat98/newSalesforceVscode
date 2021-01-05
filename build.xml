@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 
--<project xmlns:sf="antlib:com.salesforce" basedir="." default="test" name="Sample usage of Salesforce Ant tasks">
+<project xmlns:sf="antlib:com.salesforce" basedir="." default="test" name="Sample usage of Salesforce Ant tasks">
 
 <property file="build.properties"/>
 
