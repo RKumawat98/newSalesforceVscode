@@ -1,0 +1,14 @@
+public class cyntexaClass 
+{
+
+    public static void main()
+    {
+        List<Account> acc=[Select Id,Name from Account LIMIT 4];
+        for(Account a: acc)
+        {
+            a.Name= a.Name+'1';
+        }
+        
+        update acc;
+    }
+}
