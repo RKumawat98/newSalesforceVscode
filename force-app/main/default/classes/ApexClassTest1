@@ -4,7 +4,7 @@ public class ApexClassTest1 {
     public static testMethod void validateHelloWorld() 
     {
         List<Account> aList= new List<Account>();
-        for(integer i=0; i<4; i++)
+        for(integer i=0; i<10; i++)
         {
         	Account acc= new Account(Name='Test');  
             aList.add(acc);
